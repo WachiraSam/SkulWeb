@@ -4,6 +4,11 @@
     "@tailwindplus/elements": "^1.0.22"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   }
 }
